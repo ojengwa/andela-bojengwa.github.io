@@ -1,0 +1,227 @@
+/**********************************
+GENERAL
+***********************************/
+html {
+	height: 100%;
+	font-family: arial, verdana, sans-serif;
+}
+body {
+	background-color: #fff;
+	margin: 0;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #404040;
+	font-size: 0.8em;
+}
+a:hover {
+	text-decoration: underline;
+
+}
+
+#content {
+	min-width: 1055px;
+	min-height: 100%;
+}
+
+ul,
+ol {
+    list-style: none;
+    list-style-image: none;
+    padding: 0;
+    padding-top: 15px;
+}
+
+li {
+	display: inline-block;
+}
+
+/**********************************
+HEADING
+***********************************/
+header {
+	float: left;
+	width: 100%;
+	height: 60px;
+}
+
+nav {
+
+	text-align: right;
+	padding: 0 30px;
+}
+
+nav img{
+	width: 30px;
+	position: relative;
+	top: 10px;
+	opacity: 0.6;
+}
+nav img:hover{
+	opacity: 1;
+}
+
+nav a {
+	color: #404040;
+	padding-left: 15px;
+}
+
+
+
+ /*Custom bottons */
+
+#sign_in_button {
+	display: inline-block;
+	background-color: #4285F4;
+	width: 58px;
+	height: 22px;
+	padding: 8px 12px 0 0px;
+	cursor: default;
+	margin-right: 0px;
+	margin-left: 15px;
+	color: white;
+	border-radius: 4px / 6px;
+	font-weight: bold;
+}
+#sign_in_button:hover {
+	box-shadow: 0px .3px .1px blue;
+	text-decoration: none;
+}
+#apps_button{
+	cursor: default;
+}
+
+
+/**********************************
+SECTION
+***********************************/
+
+/*general styles*/
+#wrapper {
+	width: 100%;
+	padding-top:80px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 28px;
+}
+
+section {
+	padding-bottom: 40px; 
+}
+
+
+/*top section styles*/
+#top_section {
+	height: 135px;
+	margin-top: 20px;
+	padding-top: 95px;
+}
+
+#google_logo{
+	height: 95px
+}
+
+#nigeria {
+	position: relative;
+	font-size: 1em;
+	font-weight: bold;
+	left: 110px;
+	top: -26px;
+	opacity: 0.6;
+}
+
+/*down section styles*/
+
+/*search fied styles*/
+#search_field{
+	background: url('../img/mic.gif') no-repeat 99% center;
+	background-width:13px;
+	width: 570px;
+	height: 27px;
+	margin: 0 auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cdcdcd;
+	opacity:0.6;
+}
+#search_field:hover {
+	border: 1px solid #9a9a9a;
+}
+
+#search_field:focus {
+	border: 1px solid #135dd9;
+	outline: none;
+	box-shadow: 0px 0px 0px;
+}
+
+/*google buttons*/
+#google_buttons li{
+	padding-right: 12px;
+}
+.buttons {
+	height: 29px;
+	display: inline-block;
+	font: bold 11px Arial, sans-serif;
+	line-height: 22px;
+	text-align: center;
+	background: #f1f1f1;
+	border: 1px solid;
+	border-radius: 3px;
+	color: #222222;
+	border-color: #cdcdcd;
+}
+.buttons:hover {
+	box-shadow: 0px .9px .1px darkgrey;
+}
+
+
+/*languages styles*/
+#languages li {
+	padding-right: 5px;
+}
+#languages p {
+	display: inline;
+	font-size: 0.8em;
+}
+#languages {
+	padding-top: 50px;
+}
+
+.languages {
+	color: blue;
+}
+.languages:hover {
+	text-decoration: underline;
+}
+
+
+
+/**********************************
+FOOTER
+***********************************/
+footer {
+	position: relative;
+	width: 100%;
+	background-color: #f2f2f2;
+	height: 40px;
+	margin-top: -40px;
+	clear: both;
+}
+
+footer a {
+	padding-left: 15px;
+}
+
+#left_footer {
+	float: left;
+	background: #f2f2f2;
+	padding-left: 15px;
+}
+
+#right_footer {
+	float: right;
+	background: #f2f2f2;
+	padding-right: 30px;
+}
